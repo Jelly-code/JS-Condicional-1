@@ -94,9 +94,27 @@ const esPositivaONegativo = (numero) => {
         return 'Positiva'
     }
     else {
-        return 'Negativa`
+        return 'Negativa'
     }
 }
 
 console.log(esPositivaONegativo(3))
 console.log(esPositivaONegativo(-5))
+
+// EJERCICIO 7
+
+const edadDelUsuario = 18 
+
+const checkEdadDelUsuario = (edad) => {
+    if (edad >= 18) {
+        return true
+    }
+    else {
+        return false
+    }
+}
+
+console.log(checkEdadDelUsuario(edadDelUsuario))
+console.log(checkEdadDelUsuario(7))
+console.log(checkEdadDelUsuario(88))
+console.log(checkEdadDelUsuario(15))
