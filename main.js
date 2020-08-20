@@ -1,5 +1,8 @@
 // FUNCIONES, PARAMETROS Y CONDICIONES
+
+console.log('Ejercicios de operadores lógicos y condicionales con JavaScript')
 // EJERCICIO 1
+console.log('Ejercicio 1')
 
 const puedeVerPelicula = (edad, tieneAutorizacion) => {
     if (edad >= 15 || tieneAutorizacion) {
@@ -16,6 +19,7 @@ console.log(puedeVerPelicula(16, false))
 console.log(puedeVerPelicula(38, true))
 
 // EJERCICIO 2
+console.log('Ejercicio 2')
 
 const avanzarSemaforo = (colorActual) => {
     if (colorActual == 'verde') {
@@ -38,6 +42,7 @@ console.log(avanzarSemaforo('rojo'))
 console.log(avanzarSemaforo('lila'))
 
  // EJERCICIO 3
+ console.log('Ejercicio 3')
 
 const esVocal = (letra) => {
     if (letra == "a" || letra == "e" || letra == "i" || letra == "o" || letra == "u") {
@@ -53,6 +58,7 @@ console.log(esVocal('n'))
 console.log(esVocal('e'))
 
 // EJERCICIO 4
+console.log('Ejercicio 4')
 
 const esConsonante = (letra) => {
     if (letra == "a" || letra == "e" || letra == "i" || letra == "o" || letra == "u") {
@@ -68,6 +74,7 @@ console.log(esConsonante('n'))
 console.log(esConsonante('e'))
 
 // EJERCICIO 5
+console.log('Ejercicio 5')
 
 const puedeRenovarCarnet = (pasoTests, tieneMultasImpagas, pagoImpuestos) => {
     if (pasoTests && pagoImpuestos && tieneMultasImpagas == false) {
@@ -88,6 +95,7 @@ console.log(puedeRenovarCarnet(false, false, true))
 console.log(puedeRenovarCarnet(false, false, false))
 
 // EJERCICIO 6
+console.log('Ejercicio 6')
 
 const esPositivaONegativo = (numero) => {
     if(numero >= 0) {
@@ -102,6 +110,7 @@ console.log(esPositivaONegativo(3))
 console.log(esPositivaONegativo(-5))
 
 // EJERCICIO 7
+console.log('Ejercicio 7')
 
 const edadDelUsuario = 18 
 
