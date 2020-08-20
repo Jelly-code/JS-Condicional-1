@@ -1,5 +1,3 @@
-// FUNCIONES, PARAMETROS Y CONDICIONES
-
 console.log('Ejercicios de operadores lógicos y condicionales con JavaScript')
 // EJERCICIO 1
 console.log('Ejercicio 1')
