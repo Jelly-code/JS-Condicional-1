@@ -86,3 +86,17 @@ console.log(puedeRenovarCarnet(false, true, true))
 console.log(puedeRenovarCarnet(false, true, false))
 console.log(puedeRenovarCarnet(false, false, true))
 console.log(puedeRenovarCarnet(false, false, false))
+
+// EJERCICIO 6
+
+const esPositivaONegativo = (numero) => {
+    if(numero >= 0) {
+        return 'Positiva'
+    }
+    else {
+        return 'Negativa`
+    }
+}
+
+console.log(esPositivaONegativo(3))
+console.log(esPositivaONegativo(-5))
