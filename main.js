@@ -30,9 +30,24 @@ const avanzarSemaforo = (colorActual) => {
     else {
         return 'Error: color de semáforo inválido'
     } 
- }
+}
  
- console.log(avanzarSemaforo('verde'))
- console.log(avanzarSemaforo('amarillo'))
- console.log(avanzarSemaforo('rojo'))
- console.log(avanzarSemaforo('lila'))
+console.log(avanzarSemaforo('verde'))
+console.log(avanzarSemaforo('amarillo'))
+console.log(avanzarSemaforo('rojo'))
+console.log(avanzarSemaforo('lila'))
+
+ // EJERCICIO 3
+
+const esVocal = (letra) => {
+    if (letra == "a" || letra == "e" || letra == "i" || letra == "o" || letra == "u") {
+        return true
+    }
+    else {
+        return false
+    }
+}
+
+console.log(esVocal('a'))
+console.log(esVocal('n'))
+console.log(esVocal('e'))
