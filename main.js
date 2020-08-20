@@ -51,3 +51,18 @@ const esVocal = (letra) => {
 console.log(esVocal('a'))
 console.log(esVocal('n'))
 console.log(esVocal('e'))
+
+// EJERCICIO 4
+
+const esConsonante = (letra) => {
+    if (letra == "a" || letra == "e" || letra == "i" || letra == "o" || letra == "u") {
+        return false
+    }
+    else {
+        return true
+    }
+}
+
+console.log(esConsonante('a'))
+console.log(esConsonante('n'))
+console.log(esConsonante('e'))
